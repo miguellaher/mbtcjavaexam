@@ -6,7 +6,7 @@ import com.miguellaher.mbtcexam.dto.SearchCustomerResponse;
 import com.miguellaher.mbtcexam.entity.Account;
 import com.miguellaher.mbtcexam.entity.Customer;
 
-public interface CustomerMapper {
+public interface CustomerAccountMapper {
 
     Customer toCustomer(CreateCustomerAccountRequest createAccountRequest);
 

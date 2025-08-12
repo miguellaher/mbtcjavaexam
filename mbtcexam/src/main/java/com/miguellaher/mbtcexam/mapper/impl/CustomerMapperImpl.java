@@ -14,7 +14,7 @@ import com.miguellaher.mbtcexam.entity.Customer;
 import com.miguellaher.mbtcexam.mapper.CustomerMapper;
 
 @Component
-public class CustomerAccountMapperImpl implements CustomerMapper {
+public class CustomerMapperImpl implements CustomerMapper {
 
     @Override
     public Customer toCustomer(CreateCustomerAccountRequest createAccountRequest) {
