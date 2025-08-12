@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import org.springframework.stereotype.Service;
-
+import org.springframework.stereotype.Component;
 import com.miguellaher.mbtcexam.dto.AccountDto;
 import com.miguellaher.mbtcexam.dto.CreateCustomerAccountRequest;
 import com.miguellaher.mbtcexam.dto.SearchCustomerResponse;
@@ -14,7 +13,7 @@ import com.miguellaher.mbtcexam.entity.AccountType;
 import com.miguellaher.mbtcexam.entity.Customer;
 import com.miguellaher.mbtcexam.mapper.CustomerMapper;
 
-@Service
+@Component
 public class CustomerAccountMapperImpl implements CustomerMapper {
 
     @Override
